@@ -95,23 +95,4 @@ Raw user text   ──►   Sanitize (lower/strip)  ──►  Match dynamic int
                        No match                 ──►  Random fallback
 ```
 
-## Extending This Project
 
-Ideas for going further, in increasing order of difficulty:
-
-1. **More intents** — add new key-value pairs to `knowledge_base`
-2. **Synonym handling** — map multiple phrasings (`"hey"`, `"yo"`) to the same intent
-3. **Persistent memory** — save `user_name` to a file so it survives restarts
-4. **Logging** — write each conversation turn to a `.log` file with timestamps
-5. **Hybrid architecture** — if no rule matches, pass the query to an LLM API instead of a generic fallback (this is the bridge to Project 2)
-
-## Author
-
-`<your name>`
-Industrial Training Kit — DecodeLabs, Batch 2026
-
-## Contact
-
-📞 +91 89330 06408
-✉️ decodelabs.tech@gmail.com
-🌐 www.decodelabs.tech
